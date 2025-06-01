@@ -21,4 +21,7 @@ def get_crypto_data(coin_id="bitcoin", days="max", currency="usd"):
     df["date"] = pd.to_datetime(df["timestamp"], unit="ms")
     df.set_index("date", inplace=True)
 
+    # Saving data to CSV format file
+    df.to_csv(f"{coin_id}_historical_prices.csv")
+
     
