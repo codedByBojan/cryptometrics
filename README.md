@@ -18,9 +18,7 @@ Features
 
 
 Requirements
-- Python 3.7+
+- Python 
 - Libraries: `requests`, `pandas`, `matplotlib`, `mplfinance`
 
-Installation
-```bash
-pip install requests pandas matplotlib mplfinance
+
